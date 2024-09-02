@@ -5,6 +5,7 @@ const { readdirSync } = require("fs")
 const db = require('quick.db')
 const p = new db.table("Prefix")
 const logembed = new db.table("embedlog")
+const k = require('./k.js')
 const { Player } = require('discord-player');
 ms = require("ms")
 const color = config.app.color
